@@ -589,6 +589,9 @@ class App {
                               <p><span>After School Program:</span> ${userData.afterSchoolProgram}</p>
                               <p><span>Additional Info:</span> ${userData.additionalInfo}</p>
                               <p> <span>Start date:</span> ${userData.childStartDate}</p>
+                              <hr />
+                              <p>Waiver Signature:</p>
+                              <img src="${userData.signature}"  alt="signature" width="auto" height="50" />
                           </div>
                           <div class="color__bar"></div>
                       </div>
@@ -623,6 +626,9 @@ class App {
                         <p><span>After School Program:</span> ${userData.afterSchoolProgram}</p>
                         <p><span>Additional Info:</span> ${userData.additionalInfo}</p>
                         <p> <span>Start date:</span> ${userData.childStartDate}</p>
+                        <hr />
+                        <p>Waiver Signature:</p>
+                        <img src="${userData.signature}"  alt="signature" width="auto" height="50" />
                     </div>
                     <div class="color__bar"></div>
                 </div>
@@ -657,6 +663,9 @@ class App {
                     <p><span>After School Program:</span> ${userData.afterSchoolProgram}</p>
                     <p><span>Additional Info:</span> ${userData.additionalInfo}</p>
                     <p> <span>Start date:</span> ${userData.childStartDate}</p>
+                    <hr />
+                    <p>Waiver Signature:</p>
+                    <img src="${userData.signature}"  alt="signature" width="auto" height="50" />
                 </div>
                 <div class="color__bar"></div>
             </div>

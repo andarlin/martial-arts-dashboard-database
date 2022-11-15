@@ -440,7 +440,7 @@ button {
   border-radius: 20px;
   background: linear-gradient(145deg, #c9c7c7, #efecec);
   box-shadow: 20px 20px 60px #bebcbc, -20px -20px 60px #fffefe;
-  width: auto;
+  width:500px;
   height: 500px;
 }
 
@@ -561,9 +561,9 @@ button {
 }
 
 .card__container {
-  width: 300px;
+  width: 450px;
   height: auto;
-  margin: 10px 20px 10px 0;
+  margin: 10px 40px 10px 0;
   padding: 20px 10px;
   border-radius: 10px;
   background: linear-gradient(145deg, #ffffff, #dddee6);
@@ -582,14 +582,14 @@ button {
 .junior_champion {
   position: relative;
   display: block;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 .tiny_champion:hover,
 .little_champion:hover,
 .junior_champion:hover {
   cursor: pointer;
   transform: translateY(-3px);
-  background: linear-gradient(145deg, #343e6569, #2c34555b) !important;
+  background: linear-gradient(145deg, #343e65db, #2c34555b) !important;
   box-shadow: 5px 7px 16px rgba(0, 0, 0, 0.5),
     -5px -5px 7px rgba(63, 63, 63, 0.5) !important;
   transition: all 0.3s cubic-bezier(0.11, 0, 0.5, 0) !important;
