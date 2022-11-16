@@ -1,0 +1,24 @@
+{
+  "name": "martial-arts-academy-dashboard",
+  "version": "1.0.0",
+  "description": "This Martial Arts Dashboard is an array of student objects with a form submission to add new students while keeping track of the user information in a modern UI design. This student information is all stored in local storage and then can be backed up in a data.json file.",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andarlin/martial-arts-dashboard-database.git"
+  },
+  "author": "Andar Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andarlin/martial-arts-dashboard-database/issues"
+  },
+  "homepage": "https://github.com/andarlin/martial-arts-dashboard-database#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
+}
